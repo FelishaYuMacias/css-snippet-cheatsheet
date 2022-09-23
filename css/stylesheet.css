@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+  }
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .box {
+    border-style: dotted;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 0 0 300px;
+  }
+  .box-title {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 20px;
+  }
